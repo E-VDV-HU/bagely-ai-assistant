@@ -1,0 +1,26 @@
+{
+    "default":[
+        {
+            "name": "groq",
+            "model": "qwen/qwen3.8-27b",
+            "api_key": "x",
+            "baseurl": "https://api.groq.com/openai/v1"
+        }
+    ],
+    "default_reason":[
+        {
+            "name": "groq",
+            "model": "openai/gpt-oss-120b",
+            "api_key": "x",
+            "baseurl": "https://api.groq.com/openai/v1"
+        }
+    ],
+    "groq_alternative":[
+        {
+            "name": "openai",
+            "model": "gpt-5.6-luna",
+            "api_key": "x",
+            "baseurl": "https://api.openai.com/v1"
+        }
+    ]
+}
